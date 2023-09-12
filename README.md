@@ -29,4 +29,4 @@ Based on the ensembling model, we also investigated several **generalization and
 ## 5. What I learned from this project
 
 1) Larned many image pre-processing techniques, to increase the variety of data.
-2) Got to know many convolutional neural networks and their structures, as well as ensembling of different models to do classification.
+2) Got to know many convolutional neural networks and their structures, as well as ensembling of different models to do classification (But the inference speed may decrease).
