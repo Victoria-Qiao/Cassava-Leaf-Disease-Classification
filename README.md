@@ -13,9 +13,9 @@ The dataset we used was the dataset provided by the Kaggle competition [Cassava 
 
 ## Preprocessing of the dataset
 
-We deployed data augmentation techniques to help mitigate overfitting. Some functions provided in the **Albumentations** library were applied. 
+We deployed data augmentation techniques to help mitigate overfitting. Some functions provided in the [Albumentations]([https://www.kaggle.com/c/cassava-leaf-disease-classification/data](https://github.com/albumentations-team/albumentations)) library were applied. 
 
-Asequence of data augmentation methods is implemented sequentially for each image. For each input image, a region with a specified size is cropped randomly within the original image. Then for the cropped image, **transpose**, **flip operations**, **rotate**, and **normalize** are implemented to make training images various, which could enhance the generalization ability of a model.
+A sequence of data augmentation methods is implemented sequentially for each image. For each input image, a region with a specified size is cropped randomly within the original image. Then for the cropped image, **transpose**, **flip operations**, **rotate**, and **normalize** are implemented to make training images various, which could enhance the generalization ability of a model.
 
 
 ## The design of our classification model
