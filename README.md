@@ -24,4 +24,4 @@ First, we trained several common single-type deep neural networks including **Re
 
 Then based on their performance, we did ensembling classification using models with the top three highest validation accuracy. It shows that ensembling model performs much better than single-type models. 
 
-Based on the ensembling model, we also investigated several **generalization and regularization** methods including **Fmix** and **Test time Augmentation**, however, experiment results show that these methods fail to improve the validation performance.
+Based on the ensembling model, we also investigated several **generalization and regularization** methods including **Fmix** and **Test time Augmentation**, however, experiment results show that these methods fail to improve the validation performance. Finally, we applied **weighted average** of the predict scores from the top three classifiers as the final outcome.
